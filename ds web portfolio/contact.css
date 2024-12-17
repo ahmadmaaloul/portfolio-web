@@ -1,0 +1,254 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #f9f9f9;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  width: 100%;
+  max-width: 900px;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.contact-info {
+  width: 45%;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info .title {
+  color: #4f6faa;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-info .text {
+  color: #333;
+  margin: 1.5rem 0 2rem 0;
+}
+
+.contact-info .info p {
+  color: #555;
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
+.contact-info .info i {
+  color: #4f6faa;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.contact-info .info a {
+  color: #4f6faa;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.contact-info .info a:hover {
+  color: #4f6faa;
+}
+
+.social-media {
+  padding: 2rem 0 0 0;
+}
+
+.social-media p {
+  color: #333;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.social-icons a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 200px;
+  font-size: 1rem;
+  color: #4f6faa;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.social-icons a:hover {
+  color: #4f6faa;
+  transform: scale(1.05);
+}
+
+.contact-form {
+  width: 50%;
+  background-color: #4f6faa;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-form .title {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.input-container {
+  margin: 1.2rem 0;
+}
+
+.input {
+  width: 90%;
+  outline: none;
+  border: 2px solid #fafafa;
+  background: none;
+  padding: 0.6rem 1.2rem;
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.95rem;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+textarea.input {
+  padding: 0.8rem 1.2rem;
+  min-height: 150px;
+  border-radius: 22px;
+  resize: none;
+  overflow-y: auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #fafafa;
+}
+
+.btn {
+  padding: 0.6rem 1.3rem;
+  background-color: #fff;
+  border: 2px solid #fafafa;
+  font-size: 0.95rem;
+  border-radius: 25px;
+  color: #1a70bc;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+.footer {
+  background-color: #4f6faa;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  width: 100%;
+}
+
+.footer-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.footer-form label {
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+.footer-form input[type="email"] {
+  padding: 10px;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.footer-form button {
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.footer-form button:hover {
+  background-color: #003f7f;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.hidden {
+  display: none;
+}
+
+.navbar {
+  background-color: #4f6faa;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #ffdd57;
+}

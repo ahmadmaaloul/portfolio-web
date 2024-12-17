@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contactez-moi</title>
+
+  
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+
+    <nav class="navbar">
+      <a href="index.html"><i class="fas fa-home"></i> Accueil</a>
+      <a href="diplomes.html"><i class="fas fa-graduation-cap"></i> Diplômes</a>
+      <a href="competences_informatique.html"><i class="fas fa-laptop-code"></i> Compétences</a>
+      <a href="projets_realises.html"><i class="fas fa-project-diagram"></i> Projets réalisés</a>
+      <a href="stages.html"><i class="fas fa-briefcase"></i> Stages</a>
+      <a href="quizz.html"><i class="fas fa-question-circle"></i> Quizz</a>
+      <a href="contact.html"><i class="fas fa-question-phone"></i>Contact</a>
+      
+  </nav>
+
+    <main>
+    <div class="container">
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Entrons en contact</h3>
+          <p class="text">
+            Vous pouvez me contacter via les coordonnées et liens suivants 
+          </p>
+
+          <div class="info">
+            <p><i class="fas fa-phone"></i> Numéro de téléphone : 50 554 399</p>
+            <p><i class="fas fa-map-marker-alt"></i> Adresse : 
+              <a href="https://www.google.tn/maps/@34.796922,10.6935252,21z?hl=fr&entry=ttu&g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D" target="_blank" data-content="Adresse">Route lafrane km 8.5</a>
+            </p>
+            <a href="mailto:ahmadmaaloul32@gmail.com" data-content="Email">
+              <i class="fas fa-envelope"></i> ahmadmaaloul32@gmail.com
+          </a>
+          </div>
+
+          <div class="social-media">
+            <h3>Liens professionnels : </h3>
+            <div class="social-icons">
+              <a href="https://github.com/ahmadmaaloul" target="_blank" data-content="GitHub">
+                <i class="fab fa-github"></i> GitHub
+              </a>
+              <a href="https://www.linkedin.com/in/ahmad-maaloul-7b9135297/" target="_blank" data-content="LinkedIn">
+                <i class="fab fa-linkedin"></i> LinkedIn
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <form id="contactForm" autocomplete="off">
+            <h3 class="title">Contactez-moi</h3>
+            <div class="input-container">
+              <label for="name">Nom</label>
+              <input type="text" name="name" class="input" placeholder="Votre nom" required />
+            </div>
+            <div class="input-container">
+              <label for="name">Prénom</label>
+              <input type="text" name="prénom" class="input" placeholder="Votre prénom" required />
+            </div>
+            <div class="input-container">
+              <label for="email">Email</label>
+              <input type="email" name="email" class="input" placeholder="Votre email" required />
+            </div>
+            <div class="input-container">
+              <label for="phone">Sujet</label>
+              <input type="tel" name="sujet" class="input" placeholder="Votre sujet" required />
+            </div>
+            <div class="input-container textarea">
+              <label for="message">Message</label>
+              <textarea name="message" class="input" placeholder="Votre message" required></textarea>
+            </div>
+            <input type="submit" value="Envoyer" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Football</title>
+    <link rel="stylesheet" href="quizz.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <a href="index.html"><i class="fas fa-home"></i> Accueil</a>
+        <a href="diplomes.html"><i class="fas fa-graduation-cap"></i> Diplômes</a>
+        <a href="competences_informatique.html"><i class="fas fa-laptop-code"></i> Compétences</a>
+        <a href="projets_realises.html"><i class="fas fa-project-diagram"></i> Projets réalisés</a>
+        <a href="stages.html"><i class="fas fa-briefcase"></i> Stages</a>
+        <a href="quizz.html"><i class="fas fa-question-circle"></i> Quizz</a>
+        <a href="contact.html"><i class="fas fa-phone-alt"></i> Contact</a>
+        
+    </nav>
+
+    
+    <header>
+        <h1>Quiz de Football</h1>
+        <h2>Testez vos connaissances sur le football !</h2>
+    </header>
+
+    
+    <main id="quiz-container">
+        
+        <div id="question-box">
+            <h3 id="question-text"></h3>
+
+           
+            <div id="options-container"></div>
+
+            
+            <button id="next-btn">Suivant</button>
+        </div>
+
+       
+        <div id="result" class="hidden">
+            <h3>Félicitations !</h3>
+            <p>Vous avez terminé le quiz.</p>
+            <p>Votre score : <span id="score"></span> / 16</p>
+            <button id="correction-btn">Voir les corrections</button>
+        </div>
+
+        
+        <div id="corrections" class="hidden"></div>
+    </main>
+
+    
+    <footer>
+        <p>&copy; 2024 Quiz Football. Réalisé avec passion par ahmed maaloul.</p>
+    </footer>
+
+    
+    <script src="quiz.js"></script>
+</body>
+</html>

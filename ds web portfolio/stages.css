@@ -1,0 +1,352 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0; 
+    padding: 0; 
+    background-color: #f9f9f9; 
+    color: #333; 
+}
+
+
+.navbar {
+    background-color: #4f6faa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ffdd57;
+}
+
+
+
+h1{
+    font-size: 2.5rem; 
+    margin: 20px 0 10px; 
+    color: #4f6faa; 
+    text-align: center; 
+}
+h3{
+    text-align: center; 
+}
+
+p {
+    line-height: 1.6; 
+    margin-bottom: 15px; 
+}
+
+
+.image-container {
+    text-align: center;
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+
+.company-image {
+    width: 100%; 
+    max-width: 350px; 
+    height: auto; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease; 
+}
+
+
+.company-image:hover {
+    transform: scale(1.1); 
+}
+
+
+/* Main */
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.internships {
+    width: 100%;
+    max-width: 800px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.internships-container {
+    margin: 0 auto; 
+}
+
+.internships ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.internships li {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.internships li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.internships h3 {
+    font-size: 1.5rem;
+    color: #4f6faa;
+    margin-bottom: 10px;
+}
+
+.internships p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 5px 0;
+}
+
+.internships p strong {
+    color: #4f6faa;
+}
+/* Footer */
+.footer {
+    background-color: #4f6faa; 
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-form label {
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+.footer-form input[type="email"] {
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.footer-form button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+        color: #333;
+    }
+    
+   
+    .navbar {
+        background-color: #4f6faa;
+        padding: 10px 0; 
+        text-align: center;
+    }
+    
+    .navbar a {
+        text-decoration: none;
+        color: white;
+        margin: 0 5px;
+        font-size: 0.9rem; 
+        transition: color 0.3s ease;
+    }
+    
+    .navbar a:hover {
+        color: #ffdd57;
+    }
+    
+    /* Header */
+    .header {
+        background-color: #4f6faa;
+        color: white;
+        text-align: center;
+        padding: 40px 0;
+    }
+    
+    .header h1 {
+        font-size: 2.5rem;
+        margin: 0;
+        color: #4f6faa; 
+    }
+    
+    /* Main */
+    main {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .internships {
+        width: 100%;
+        max-width: 800px;
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+    }
+    
+    .internships-container {
+        margin: 0 auto; 
+    }
+    
+    .internships ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .internships li {
+        margin-bottom: 20px;
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+        transition: transform 0.2s ease, box-shadow 0.3s ease;
+    }
+    
+    .internships li:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    }
+    
+    .internships h3 {
+        font-size: 1.5rem;
+        color: #4f6faa;
+        margin-bottom: 10px;
+    }
+    
+    .internships p {
+        font-size: 1rem;
+        line-height: 1.6;
+        margin: 5px 0;
+    }
+    
+    .internships p strong {
+        color: #333;
+    }
+    
+    /* Footer */
+    .footer {
+        background-color: #4f6faa;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        position: relative;
+        width: 100%;
+    }
+    
+    .footer-container {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    .footer-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 20px; 
+    }
+    .footer-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .footer-form label {
+        font-size: 1rem;
+        margin-bottom: 8px;
+    }
+    
+    .footer-form input[type="email"] {
+        padding: 10px;
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+    }
+    
+    .footer-form button {
+        background-color: #0056b3;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 1rem;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .footer-form button:hover {
+        background-color: #003f7f;
+    }
+    
+    .footer a {
+        color: white; 
+        text-decoration: none;
+    }
+    
+    .footer a:hover {
+        text-decoration: underline;
+    }
+    
+    transition: background-color 0.3s ease;
+}
+
+.footer-form button:hover {
+    background-color: #003f7f;
+}
+
+.footer a {
+    color: white; 
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

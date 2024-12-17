@@ -1,0 +1,149 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+.navbar {
+    background-color: #4f6faa;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ffdd57;
+}
+
+.header {
+    text-align: center;
+    background-color: #f9f9f9;
+    color: #4f6faa;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin: 20px 0 10px;
+    color: #4f6faa;
+    text-align: center;
+}
+
+.diplomas {
+    padding: 40px 20px;
+    background-color:  #f9f9f9;
+    margin-top: 20px;
+}
+
+.diplomas ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.diplomas ul li {
+    background-color:  #f9f9f9;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.diplomas ul li strong {
+    color: #4f6faa;
+    font-size: 1.2rem;
+}
+
+.diplomas ul li div.diploma-image {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.diploma-image {
+    max-width: 700px;
+    border-radius: 8px;
+    border: 2px solid #4f6faa;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+    background-color: #4f6faa;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-form label {
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+.footer-form input[type="email"] {
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.footer-form button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.footer-form button:hover {
+    background-color: #003f7f;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
